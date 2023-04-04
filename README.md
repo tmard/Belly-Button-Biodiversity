@@ -8,10 +8,10 @@ Table of Contents
   * [Background](#background)
   * [Objective](#objective)
   * [Method](#method)
-        * [Create `function init` to Initialize Drop Down Menu](#create-`function init`-to-initialize-drop-down-menu)
-        * [Create `function redraw` to Call on Selected Subject ID](#create-`function redraw`-to-call-on-selected-subject)
-        * [Create `function DemoInfo` for Demographic Information of Each Subject ID](#create-`function demoinfo`-for-demographic-information-of-each-subject)
-        * [Create `function AllCharts` for Horizontal, Bubble and Gauge Charts](#create-`function allcharts`-for-horizontal-bubble-and-gauge-charts)
+  * [Create `function init` to Initialize Drop Down Menu](#create-`function init`-to-initialize-drop-down-menu)
+  * [Create `function redraw` to Call on Selected Subject ID](#create-`function redraw`-to-call-on-selected-subject)
+  * [Create `function DemoInfo` for Demographic Information of Each Subject ID](#create-`function demoinfo`-for-demographic-information-of-each-subject)
+  * [Create `function AllCharts` for Horizontal, Bubble and Gauge Charts](#create-`function allcharts`-for-horizontal-bubble-and-gauge-charts)
   * [References](#references)
   
   
