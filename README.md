@@ -96,8 +96,7 @@ The charts comprised of the following tasks:
 
 ## Deployment of Belly Button Biodiversity Dashboard
 
-
-[belly_button_biodiversity_dashboard](../Images/belly_button_biodiversity_dashboard.png)
+![belly_button_biodiversity_dashboard](Images/belly_button_biodiversity_dashboard.png)]
 
 
 ## References
