@@ -67,6 +67,7 @@ Used the 'metadata' from the JSON file to complete the following tasks:
     2. Created a variable where D3 should select the data from the specific id tag.
     
     3. Created a for loop to append the values and keys to the id tag. 
+![demographic_info_940](Images/demographic_info_940.png)   
     
 
 
@@ -81,6 +82,8 @@ The charts comprised of the following tasks:
         a. Used `samples_values` as the values.
         b. Used `otu_ids` as labels. 
         c. Used `otu_labels` as hovertext for the chart. 
+![top_10_bacteria_cultures_940](Images/top_10_bacteria_cultures_940.png)   
+        
         
     2. Bubble Chart:
         a. Use `otu_ids` for the x values.
@@ -88,15 +91,20 @@ The charts comprised of the following tasks:
         c. Use `sample_values` for the marker size.
         d. Use `otu_ids` for the marker colors.
         e. Use `otu_labels` for the text values.
+
+![bacteria_cultures_per_sample_940](Images/bacteria_cultures_per_sample_940.png)
+        
         
     3. Gauge Chart:
         a. Plot weekly washing frequency of the subject.
+
+![belly_button_washing_frequency_940](Images/belly_button_washing_frequency_940.png)
     
 
 
 ## Deployment of Belly Button Biodiversity Dashboard
 
-![belly_button_biodiversity_dashboard](Images/belly_button_biodiversity_dashboard.png)]
+![belly_button_biodiversity_dashboard](Images/belly_button_biodiversity_dashboard.png)
 
 
 ## References
