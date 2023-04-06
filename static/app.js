@@ -19,18 +19,6 @@ function init(){
 init();
 
 
-// Create function to redraw data, subject ID and below charts for each Subject ID selected in the dropdown menu
-function redraw(subjectId) {
-  d3.json(url).then(data => {
-    console.log(data);
-    console.log(subjectId);
-
-    DemoInfo(data, subjectId);  
-    AllCharts(data, subjectId);
-  });
-}
-
-
 // Demographic Info
 function DemoInfo(data, subjectId) {
 
@@ -181,4 +169,15 @@ function AllCharts(data, subjectId) {
 
   // Use Plotly to plot the gauge data and layout
   Plotly.newPlot("gauge", gaugeData, gaugeLayout);
+}
+
+// Create function to redraw data, subject ID and below charts for each Subject ID selected in the dropdown menu
+function redraw(subjectId) {
+  d3.json(url).then(data => {
+    console.log(data);
+    console.log(subjectId);
+
+    DemoInfo(data, subjectId);  
+    AllCharts(data, subjectId);
+  });
 }
